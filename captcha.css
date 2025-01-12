@@ -1,0 +1,42 @@
+
+.container{
+    background-image: url(./captcha1.png);
+    height: 100vh;
+    text-align: center;
+}
+
+#input-text{
+    width: 25%;
+    height: 15vh;
+    box-shadow: 1px 2px 3px;
+    margin-top: 300px;
+    background-color: rgba(37, 134, 24, 0.888);
+    text-align: center;
+    color: rgb(32, 30, 30);
+    font-weight: bold;
+    font-size: 90px;
+    border-radius: 30px;
+    transition-duration: 1s ;
+    cursor: pointer;
+}
+
+.span{
+    box-shadow: 1px 2px 3px;
+    color: rgb(88, 146, 30);
+    border: 2px solid black;
+    background-color: rgba(65, 68, 68, 0.888);
+    font-weight: bold;
+    font-size: 60px;
+   border-radius: 10px;
+}
+
+#btn{
+    width: 30%;
+    height: 16vh;
+    box-shadow: 1px 2px 3px;
+    background-color: rgba(46, 178, 23, 0.888);
+    color: rgb(41, 39, 39);
+    font-weight: bold;
+    font-size: 90px;
+    border-radius: 30px;
+}

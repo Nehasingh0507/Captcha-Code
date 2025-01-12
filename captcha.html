@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="captcha.css" />
+    <title>Document</title>
+  </head>
+  <body onload="generatecaptcha()">
+    <div class="container">
+      <input
+        type="text"
+        placeholder="Enter captcha here"
+        id="input-text"
+        
+      />
+      <span
+        class="span"
+        id="captcha-code"
+       
+      ></span>
+      <i class="fas fa-sync" onclick="generatecaptcha()"></i>
+      <button id="btn">submit</button>
+    </div>
+    <script src="./captcha.js"></script>
+  </body>
+</html>
